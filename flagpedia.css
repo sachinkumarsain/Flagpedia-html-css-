@@ -27,6 +27,8 @@
     width:100%;
     display: flex;
     flex-wrap: wrap;
+    list-style-position: inside;
+    overflow: hidden;
 
   
 
@@ -35,16 +37,72 @@
     display: flex;
     align-items: center;
     margin:0px 10px;
-    width: 47.5%;
+    width: 46%;
     height: 80px;
     background-color: rgb(236, 233, 233);
-    padding-left: 50px;
+    transition: all 1s;
+    transition-duration: 0.4s;
     
+    
+}
+.box ol li:hover{
+    background-color: rgb(222, 218, 218);
+    transform: scale(1.03);
+}
+.box ol li:before{
+    content:"";
+    width: 80px;
+    left:0px;
+    top:0px;
+    height:80px ;
+    background-color: rgb(201, 198, 198);
+    color: rgb(83, 79, 79);
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box ol li:first-of-type:before{
+    content: "a)";
+}
+.box ol li:nth-of-type(2):before{
+    content: "b)";
+}
+.box ol li:nth-of-type(3):before{
+    content: "c)";
+}
+.box ol li:nth-of-type(4):before{
+    content: "d)";
+}
+
+.box ol li:nth-of-type(5):before{
+    content: "e)";
+}
+.box ol li:nth-of-type(6):before{
+    content: "f)";
+}
+.box ol li:nth-of-type(7):before{
+    content: "g)";
+}
+.box ol li:nth-of-type(8):before{
+    content: "h)";
+}
+.box ol li:nth-of-type(9):before{
+    content: "i)";
+}
+.box ol li:nth-of-type(10):before{
+    content: "j)";
+}.box ol li:nth-of-type(11):before{
+    content: "k)";
+}
+.box ol li:last-of-type:before{
+    content: "l)";
 }
 .box2 ol li a{
     text-decoration: none;
     color: black;
     font-size: 20px;
+    padding-left: 40px;
 }
 .total{
     height: 340px;
