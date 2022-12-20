@@ -13,6 +13,7 @@
 }
 .box1{
     width: 40%;
+    margin-top: 10px;
 }
 .box1 img{
     width: 100%;
@@ -108,17 +109,12 @@
     margin:60px 0px;
     
 }
-.one,.two{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-}
+
 .tag{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 20px;
     
 
 
@@ -147,9 +143,11 @@
 }
 h2{
     font-weight: 200;
+    font-size: 20px;
 }
 h3{
     font-weight: 100;
+   
 }
 .tag2,.tag1{
     display: flex;
